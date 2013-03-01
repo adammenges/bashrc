@@ -1,9 +1,5 @@
 export PATH=$PATH:/usr/local/git/bin/
 
-# Echos:
-echo ""
-echo "Welcome, Overlord Adam. What can I do for you today?"
-echo ""
 
 
 # PS1 config
@@ -17,17 +13,9 @@ if [ -f ~/Dropbox/Personal/Configs/Unix_Configs/git-completion.bash ]; then
       . ~/Dropbox/Personal/Configs/Unix_Configs/git-completion.bash
 fi
 
-if [ -f ~/Dropbox/Unix_Configs/git-completion.bash ]; then
-      . ~/Dropbox/Unix_Configs/git-completion.bash
-fi
-
 # Startup
 if [ -f ~/Dropbox/Personal/Configs/Unix_Configs/startup.sh ]; then
       . ~/Dropbox/Personal/Configs/Unix_Configs/startup.sh
-fi
-
-if [ -f ~/Dropbox/Unix_Configs/startup.sh ]; then
-      . ~/Dropbox/Unix_Configs/startup.sh
 fi
 
 # MacVim
@@ -38,15 +26,6 @@ if [ -f ~/Dropbox/Personal/Configs/Unix_Configs/mvim ]; then
         sudo cp ~/Dropbox/Personal/Configs/Unix_Configs/mvim /bin/
     fi
 fi
-
-if [ -f ~/Dropbox/Unix_Configs/mvim ]; then
-    if [ ! -f /bin/mvim ];
-    then
-        echo "MacVim not found! Installing..."
-        sudo cp ~/Dropbox/Unix_Configs/mvim /bin/
-    fi
-fi
-
 
 
 
