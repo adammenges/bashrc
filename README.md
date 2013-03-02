@@ -17,5 +17,6 @@ What's Included
 ===============
 
  * Good general aliases, for both bash and git.
+ * Nifty PS1. Check it out. Type in an error and see what happens.
  * git auto completion.
  * Much, much, much more to come.
