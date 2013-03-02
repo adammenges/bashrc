@@ -1,28 +1,23 @@
 # Git conpletion
-if [ -f ./git-completion.bash ]; then
-      . ./git-completion.bash
-fi
+source ~/.bash_runtime/bashrcs/git-completion.bash
 
 # Git config
-if [ -f ../scripts/git-config.sh ]; then
-      sh ../scripts/git-config.sh
-fi
+sh ~/.bash_runtime/scripts/git-config.sh
 
 # MacVim
-if [ -f ../scripts/mvim ]; then
-    if [ ! -f /bin/mvim ];
-    then
-        echo "MacVim not found! Installing..."
-        sudo cp ../scripts/mvim /bin/
-    fi
+if [ ! -f /bin/mvim ];
+then
+    echo "MacVim not found! Installing..."
+    sudo cp ~/.bash_runtime/scripts/mvim /bin/
 fi
 
 # Environment
-if [ -f ./environment.bash ]; then
-      . ./environment.bash
-fi
+source ~/.bash_runtime/bashrcs/environment.bash
+
+# Aliases
+source ~/.bash_runtime/bashrcs/aliases.bash
 
 # Personal
-if [ -f ./personal.bash ]; then
-      . ./personal.bash
+if [ -f ~/.bash_runtime/bashrcs/personal.bash ]; then
+      source ~/.bash_runtime/bashrcs/personal.bash
 fi

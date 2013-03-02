@@ -1,1 +1,1 @@
-. ~/.bash_runtime/bashrcs/main.bash
+source ~/.bash_runtime/bashrcs/main.bash
