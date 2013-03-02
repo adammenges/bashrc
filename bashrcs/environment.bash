@@ -1,5 +1,3 @@
-echo 'got here here here'
-
 export PATH=$PATH:/usr/local/git/bin/
 
 # PS1 config

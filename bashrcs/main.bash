@@ -1,5 +1,5 @@
 # Git conpletion
-source ~/.bash_runtime/bashrcs/git-completion.bash
+source ~/.bash_runtime/scripts/git-completion.bash
 
 # Git config
 sh ~/.bash_runtime/scripts/git-config.sh
