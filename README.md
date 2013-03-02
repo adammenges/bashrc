@@ -25,6 +25,6 @@ What's Included
 Screen shot
 ===========
 
-~[screenshot](http://adammenges.com/images/github/bashrc.png)
+![screenshot](http://adammenges.com/images/github/bashrc.png)
 
 
