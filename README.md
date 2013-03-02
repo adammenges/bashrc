@@ -20,3 +20,11 @@ What's Included
  * Nifty PS1. Check it out. Type in an error and see what happens.
  * git auto completion.
  * Much, much, much more to come.
+
+
+Screen shot
+===========
+
+~[screenshot](http://adammenges.com/images/github/bashrc.png)
+
+
