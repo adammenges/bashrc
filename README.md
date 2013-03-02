@@ -1,4 +1,4 @@
 bashrc
 ======
 
-For a long time I've synced my bascrc via dropbox, and now it's time to move it into a repo. In progress.
+For a long time I've synced my bashrc via dropbox, it's time to move it into a repo. **In progress.**
