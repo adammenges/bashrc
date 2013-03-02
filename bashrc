@@ -7,8 +7,8 @@ PS1="\n\[\e[32;1m\](\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else ech
 cat /var/log/system.log | grep 'sshd'
 
 # Git
-if [ -f ~/Dropbox/Personal/Configs/Unix_Configs/git-completion.bash ]; then
-      . ~/Dropbox/Personal/Configs/Unix_Configs/git-completion.bash
+if [ -f ./git-completion.bash ]; then
+      . ./git-completion.bash
 fi
 
 # Startup
