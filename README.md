@@ -9,6 +9,7 @@ Installation
 
     cd ~
     git clone git@github.com:adammenges/bashrc.git .bash_runtime
-    cp .bash_runtime/bashrcs/bashrc .bashrc (or .bash_profile if you're on a Mac)
+    cp .bashrc .bash_runtime/bashrc/personal.bash # Put your current bashrc in personal.bash
+    cp .bash_runtime/bashrcs/bashrc .bashrc # Or .bash_profile if you're on a Mac, change above too.
 
 
