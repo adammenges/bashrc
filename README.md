@@ -13,3 +13,9 @@ Installation
     cp .bash_runtime/bashrcs/bashrc .bashrc # Or .bash_profile if you're on a Mac, change above too.
 
 
+What's Included
+===============
+
+ * Good general aliases, for both bash and git.
+ * git auto completion.
+ * Much, much, much more to come.

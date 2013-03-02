@@ -1,11 +1,11 @@
-# Git
+# Git conpletion
 if [ -f ./git-completion.bash ]; then
       . ./git-completion.bash
 fi
 
-# Startup
-if [ -f ../scripts/startup.sh ]; then
-      sh ../scripts/startup.sh
+# Git config
+if [ -f ../scripts/git-config.sh ]; then
+      sh ../scripts/git-config.sh
 fi
 
 # MacVim
