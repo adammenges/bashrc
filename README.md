@@ -26,7 +26,3 @@ Screen shot
 ===========
 
 ![screenshot](http://adammenges.com/images/github/bashrc.png)
-
-
-
-

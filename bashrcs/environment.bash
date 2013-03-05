@@ -5,3 +5,7 @@ PS1="\n\[\e[32;1m\](\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else ech
 
 # History
 HISTCONTROL=ignoreboth
+
+# Good general aliases
+alias py='python'
+
