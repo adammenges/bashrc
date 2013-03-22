@@ -4,12 +4,6 @@ source ~/.bash_runtime/scripts/git-completion.bash
 # Git config
 sh ~/.bash_runtime/scripts/git-config.sh
 
-# MacVim
-if [ ! -f /bin/mvim ];
-then
-    echo "MacVim not found! Installing..."
-    sudo cp ~/.bash_runtime/scripts/mvim /bin/
-fi
 
 # Environment
 source ~/.bash_runtime/bashrcs/environment.bash
