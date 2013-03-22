@@ -1,10 +1,6 @@
 # Git conpletion
 source ~/.bash_runtime/scripts/git-completion.bash
 
-# Git config
-sh ~/.bash_runtime/scripts/git-config.sh
-
-
 # Environment
 source ~/.bash_runtime/bashrcs/environment.bash
 
