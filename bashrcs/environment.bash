@@ -6,5 +6,8 @@ PS1="\n\[\e[32;1m\](\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else ech
 # History
 HISTCONTROL=ignoreboth
 
+# Colors
+LS_COLORS='di=0;35' ; export LS_COLORS
+
 # Good general aliases
 alias py='python'
