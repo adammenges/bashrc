@@ -1,9 +1,13 @@
 # MacVim
-if [ ! -f /bin/mvim ];
-then
+if [ ! -f /bin/mvim ]; then
     echo "MacVim not found! Installing..."
     sudo cp ~/.bash_runtime/scripts/mvim /bin/
 fi
+
+if [ "$(uname -s)" == 'Darwin' ]; then
+    git config --global core.editor /usr/bin/vim
+fi
+
 
 git config --global alias.com commit
 git config --global alias.co checkout
