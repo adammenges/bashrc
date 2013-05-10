@@ -13,7 +13,6 @@ if [ "$(uname -s)" == 'Darwin' ]; then
     git config --global core.editor /usr/bin/vim
 fi
 
-
 git config --global alias.com commit
 git config --global alias.co checkout
 git config --global alias.br branch
