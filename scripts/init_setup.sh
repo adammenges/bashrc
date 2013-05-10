@@ -4,6 +4,11 @@ if [ ! -f /bin/mvim ]; then
     sudo cp ~/.bash_runtime/scripts/mvim /bin/
 fi
 
+if [ ! /usr/local/bin/sublime ]; then
+    echo 'Installing sublime...'
+    sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+fi
+
 if [ "$(uname -s)" == 'Darwin' ]; then
     git config --global core.editor /usr/bin/vim
 fi
