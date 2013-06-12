@@ -22,3 +22,4 @@ git config --global color.ui true
 git config credential.helper 'cache --timeout=10800'
 git config --global --add remote.origin.push '+refs/tags/*:refs/tags/*'
 git config --global --add remote.origin.push '+refs/heads/*:refs/heads/*'
+git config --global alias.unstage 'reset HEAD --'
