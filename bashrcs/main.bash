@@ -1,4 +1,4 @@
-# Git conpletion
+# Git completion
 source ~/.bash_runtime/scripts/git-completion.bash
 
 # Environment

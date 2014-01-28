@@ -1,7 +1,7 @@
 The ultimate bash configuration
 ===============================
 
-For a long time I've synced my bashrc via dropbox, it's time to move it into a repo. **In progress.**
+For a long time I've synced my bashrc via dropbox, it's time to move it into a repo. ***In progress.***
 
 
 Installation
@@ -17,11 +17,11 @@ What's Included
 
  * Good general aliases, for both bash and git.
  * Nifty PS1. Check it out. Type in an error and see what happens.
- * git auto completion.
- * Much, much, much more to come.
+ * Git auto completion.
+ * Much, much more to come.
 
 
 Screen shot
 ===========
 
-![screenshot](http://adammenges.com/images/github/bashrc.png)
+![screenshot](http://www.adammenges.com/images/github/bashrc.png)
